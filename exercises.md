@@ -1,10 +1,11 @@
-# ex.1
+  # ex.1
 We have variable a and variable b. Both variables have already a stored value. We want to swap those values.
 
 * Example: a = 10, b = 20
 * Output: a = 20, b = 10
 
 Warning! Do not use the programming language magic. After you complete the exercise feel free to do so.
+
 
 # ex.2
 It's the end of the semester and you got your marks from, Geometry, Algebra, Physics classes.
