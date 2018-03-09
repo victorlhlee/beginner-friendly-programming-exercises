@@ -39,6 +39,34 @@ print(sum(grades.values()) / len(grades))#7
 average_score = sum(grades.values()) / len(grades)
 print(average_score) #7
 
+# ex.3
+# You've bought a Bitcoin and now it's on the rise!!!
+
+# Create a program that:
+# * Reads the value that you bought the bitcoin
+# * Reads the percentage of increase(or decrease)
+# * Prints the total value of your bitcoin
+# * Prints the increase or decrease value
+# * Example: bitcoin_value = 10000, bitcoin_increase = 10
+# * Output: total_bitcoin_value = 11000, bitcoin_increase_value = 1000
+
+bitcoin_value = 10000 
+bitcoin_increase = float(1.10)
+print('bitcoin value: ' + str(bitcoin_value))
+print('bitcoint increase %: ' + str(bitcoin_increase))
+
+total_value = bitcoin_value * bitcoin_increase
+print('total value: ' + str(total_value))
+
+bitcoin_increase_value = total_value - bitcoin_value;
+print('bitcoin incease value: ' + str(bitcoin_increase_value))
+
+percent_change = ((float(total_value) - bitcoin_value) / abs(bitcoin_value)) * 100.00
+print('percent change: ' + str(percent_change))
+
+
+
+
 
 
 
