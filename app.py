@@ -64,7 +64,21 @@ print('bitcoin incease value: ' + str(bitcoin_increase_value))
 percent_change = ((float(total_value) - bitcoin_value) / abs(bitcoin_value)) * 100.00
 print('percent change: ' + str(percent_change))
 
+# ex.4
+# You own a property and you want to calculate the area.
 
+# Create a program that:
+# * Reads the width and height
+# * Prints the area
+# * Example: width = 5, height = 2
+# * Output: area = 10
+
+width = 5
+height = 2
+print('width: ' + str(width))
+print('height: '+ str(height))
+area = width * height
+print('area: ' + str(area))
 
 
 
