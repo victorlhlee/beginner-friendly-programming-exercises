@@ -80,9 +80,35 @@ print('height: '+ str(height))
 area = width * height
 print('area: ' + str(area))
 
+# ex.5
+# You are interested in buying cryptocurrencies. You want to check with your current amount of money how many coins you can buy
+# in Bitcoin, Ethereum and Litecoin.
+
+# Create a program that:
+# * Reads your amount of money
+# * Reads the read the price of Bitcoin, Ethereum and Litecoin
+# * Prints the amount of Bitcoin, Ethereum and Litecoin you can buy
+# * Example: money = 100, bitcoin_price = 50, Ethereum = 25, Litecoin = 10
+# * Output: "With 100$ you can buy 2 Bitcoin, 4 Ethereum, 10 Litecoin
 
 
 
+money = 100
+print(money)
+bitcoin_price = 50
+Ethereum = 25
+Litecoin = 10
+
+bitcoin_amount = money / bitcoin_price
+print(bitcoin_amount)
+
+Ethereum_amount = money / Ethereum
+print(Ethereum_amount)
+
+Litecoin_amount = money / Litecoin
+print(Litecoin_amount)
+
+print('With 100$ you can buy ' + str(bitcoin_amount) + ' Bitcoin, ' + str(Ethereum_amount) + ' Ethereum, ' + str(Litecoin_amount) + ' Litcoin.') 
 
 
 
