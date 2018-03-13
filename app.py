@@ -111,4 +111,16 @@ print(Litecoin_amount)
 print('With 100$ you can buy ' + str(bitcoin_amount) + ' Bitcoin, ' + str(Ethereum_amount) + ' Ethereum, ' + str(Litecoin_amount) + ' Litcoin.') 
 
 
+# ex.6
+# You are interested in buying a new laptop. You check the price and you see that the price is 300$ without 10% tax.
 
+# Create a program that:
+# * Read the price of the laptop
+# * Read the tax percentage
+# * Prints the total amount
+# * Output: "The total price of the laptop is 330$"
+
+laptop = 300
+tax = 1.10
+total_amount = laptop * tax
+print('The total price of the laptop is $' + str(total_amount))
