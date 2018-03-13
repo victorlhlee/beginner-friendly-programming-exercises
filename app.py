@@ -145,6 +145,3 @@ total_amount = minimum_wage + employment_bonus + kid_bonus
 print(total_amount)
 print('The total amount is ' + str(total_amount) + '$, ' + str(minimum_wage) + '$ minimum wage + ' + str(employment_bonus) + '$ for ' + str(employment_years) + ' years experience + ' + str(kid_bonus) + '$ for ' + str(employee_kids) + ' kids.')
 
-
-
-# + ', ' + str(minimum_wage) + ' minumum wage ' + (20*employment_years) + ' for ' + str(employment_years) + ' years experience ' + (30*employee_kids) + ' for ' + str(employee_kids)'
