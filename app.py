@@ -124,3 +124,27 @@ laptop = 300
 tax = 1.10
 total_amount = laptop * tax
 print('The total price of the laptop is $' + str(total_amount))
+
+# ex.7
+# In a company the monthly salary of an employee is calculated by minimum wage 400$ per month, plus 20$ multiply by the employment years, plus 30$ for each employee kid.
+
+# Create a program that:
+# * Read the employment years
+# * Read the number of each employee kids
+# * Prints the total amount the employee must take
+# * Output: "The total amount is 560$, 400$ minimum wage + 100$ for 5 years experience + 60$ for 2 kids"
+
+employment_years = 5
+employee_kids = 2
+minimum_wage = 400
+employment_multiplier = 20
+employment_bonus = employment_years * employment_multiplier
+kid_multiplier = 30
+kid_bonus = employee_kids * kid_multiplier
+total_amount = minimum_wage + employment_bonus + kid_bonus
+print(total_amount)
+print('The total amount is ' + str(total_amount) + '$, ' + str(minimum_wage) + '$ minimum wage + ' + str(employment_bonus) + '$ for ' + str(employment_years) + ' years experience + ' + str(kid_bonus) + '$ for ' + str(employee_kids) + ' kids.')
+
+
+
+# + ', ' + str(minimum_wage) + ' minumum wage ' + (20*employment_years) + ' for ' + str(employment_years) + ' years experience ' + (30*employee_kids) + ' for ' + str(employee_kids)'
