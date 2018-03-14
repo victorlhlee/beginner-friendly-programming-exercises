@@ -159,3 +159,23 @@ print('employee kids: ' + str(employee_kids))
 new_total_amount = total_amount + attendance_bonus
 print(new_total_amount)
 print('The total amount is ' + str(new_total_amount) + '$, ' + str(minimum_wage) + '$ minimum wage + ' + str(attendance_bonus) + '$ for ' + str(employment_years) + ' years experience + ' + str(kid_bonus) + '$ for ' + str(employee_kids) + ' kids + ' + str(attendance_bonus) + '$ for not missing a day at work.')
+
+
+# ex.9
+# The exercise is almost identical to a previous exercise with a minor change. It's the end of the semester and you got your marks from, Geometry, Algebra, Physics classes. If the average score is 7 and above print "Good job!", if the average score is between 6 and 4 print "You need to work harder!", if the average score is below 4 print "Failed, you really need to work harder!".
+
+# Create a program that:
+# * Reads the values of these 3 lessons
+# * Calculate the average of your grades
+# * Example: Geometry = 6, Algebra = 7, Physics = 8
+# * Output: Your average score is 7, Good job!"
+
+# Warning! Do not use the programming language magic. After you complete the exercise feel free to do so.
+# 
+# 
+if average_score > 7:
+  print('Good Job!')
+elif average_score > 4 and average_score < 6:
+  print('You need to work harder!')
+else:
+  print('Failed, you really need to work harder')
