@@ -92,7 +92,6 @@ print('area: ' + str(area))
 # * Output: "With 100$ you can buy 2 Bitcoin, 4 Ethereum, 10 Litecoin
 
 
-
 money = 100
 print(money)
 bitcoin_price = 50
@@ -145,3 +144,18 @@ total_amount = minimum_wage + employment_bonus + kid_bonus
 print(total_amount)
 print('The total amount is ' + str(total_amount) + '$, ' + str(minimum_wage) + '$ minimum wage + ' + str(employment_bonus) + '$ for ' + str(employment_years) + ' years experience + ' + str(kid_bonus) + '$ for ' + str(employee_kids) + ' kids.')
 
+# ex.8
+# The exercise is almost identical to a previous exercise with a minor change. In a company the monthly salary of an employee is calculated by minimum wage 400$ per month, plus 20$ multiply by the employment years, plus 30$ for each employee kid, plus 100$ if the employee didn't miss 1 day of work.
+
+# Create a program that:
+# * Reads the employment years
+# * Reads the number of each employee kids
+# * Prints the total amount the employee must take
+# * Output: "The total amount is 660$, 400$ minimum wage + 100$ for 5 years experience + 60$ for 2 kids + 100$ for not missing a day at work"
+# 
+attendance_bonus = 100
+print('employment years: ' + str(employment_years))
+print('employee kids: ' + str(employee_kids))
+new_total_amount = total_amount + attendance_bonus
+print(new_total_amount)
+print('The total amount is ' + str(new_total_amount) + '$, ' + str(minimum_wage) + '$ minimum wage + ' + str(attendance_bonus) + '$ for ' + str(employment_years) + ' years experience + ' + str(kid_bonus) + '$ for ' + str(employee_kids) + ' kids + ' + str(attendance_bonus) + '$ for not missing a day at work.')
