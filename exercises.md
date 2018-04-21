@@ -5,7 +5,7 @@ We have variable a and variable b. Both variables have already a stored value. W
 * Output: a = 20, b = 10
 
 Warning! Do not use the programming language magic. After you complete the exercise feel free to do so.
-
+git st
 # ex.2
 It's the end of the semester and you got your marks from, Geometry, Algebra, Physics classes.
 

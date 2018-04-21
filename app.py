@@ -179,3 +179,22 @@ elif average_score > 4 and average_score < 6:
   print('You need to work harder!')
 else:
   print('Failed, you really need to work harder')
+
+
+# ex.10
+# Create a program that prints the last digit of an integer
+
+# Create a program that:
+# * Reads an integer
+# * Print the last digit
+
+# Warning! Do not use the programming language magic. After you complete the exercise feel free to do so.
+
+# Warning! Don't try to convert the number into string etc.
+
+# Warning! For this problem it's ok after spending some time to look for the solution.
+
+number = 18
+print(number)
+print(number % 10)
+
